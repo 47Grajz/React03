@@ -4,7 +4,9 @@ import UserInfo from './UserInfo';
 import Content from './Content';
 import Reactions from './Reactions';
 import OptionsButton from './Options';
-import Emojis from './emojis';
+import LikeCounter from './LikeCounter';
+
+// import Emojis from './emojis';
 
 
 function Post({ userName, userAvatar, postContent, likes, comments, shares }) {
@@ -17,7 +19,7 @@ function Post({ userName, userAvatar, postContent, likes, comments, shares }) {
         <div className="Content">
         <Content postContent={postContent} />
         </div>
-        <Emojis></Emojis>
+        <LikeCounter />
         <div className="">
         <Reactions likes={likes} comments={comments} shares={shares} />
         </div>

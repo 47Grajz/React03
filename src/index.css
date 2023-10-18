@@ -217,6 +217,26 @@ input:not(:placeholder-shown) ~ .reset {
   border-radius: 10px;
 }
 
+.Likes-cont{
+  display: flex;
+  justify-content: space-between;
+}
+.Likes
+{
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.emojis
+{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .emojis-cont
 {
   width: 100%;
